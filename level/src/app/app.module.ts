@@ -10,6 +10,7 @@ import { ServiceComponent } from './service/service.component';
 import { VideoComponent } from './video/video.component';
 import { CheckInComponent } from './check-in/check-in.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { BlogEntriesComponent } from './blog-entries/blog-entries.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     ServiceComponent,
     VideoComponent,
     CheckInComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    BlogEntriesComponent
   ],
   imports: [
     BrowserModule,
