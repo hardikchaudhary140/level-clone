@@ -9,6 +9,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ServiceComponent } from './service/service.component';
 import { VideoComponent } from './video/video.component';
 import { CheckInComponent } from './check-in/check-in.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CheckInComponent } from './check-in/check-in.component';
     ContactUsComponent,
     ServiceComponent,
     VideoComponent,
-    CheckInComponent
+    CheckInComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
