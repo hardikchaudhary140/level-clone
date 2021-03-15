@@ -11,6 +11,7 @@ import { VideoComponent } from './video/video.component';
 import { CheckInComponent } from './check-in/check-in.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { BlogEntriesComponent } from './blog-entries/blog-entries.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BlogEntriesComponent } from './blog-entries/blog-entries.component';
     VideoComponent,
     CheckInComponent,
     SubscribeComponent,
-    BlogEntriesComponent
+    BlogEntriesComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
