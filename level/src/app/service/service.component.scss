@@ -27,18 +27,23 @@
     transition: 0.5s;
 }
 
+i {
+    color: #dc3545;
+    font-size: 70px;
+}
+
 .service-img {
     width: 100px;
     margin: 10px 0;
     height: 100px;
-    border: 1px solid red;
+    border: 1px solid #dc3545;
     border-radius: 50px;
 }
 
 .service-title {
     width: 80%;
     margin: 0 auto;
-    color: tomato;
+    color: #dc3545;
     font-size: 22px;
     margin-top: 10px;
 }
@@ -52,7 +57,7 @@
 }
 
 .service-btn {
-    color: tomato;
+    color: #dc3545;
     font-size: 14px;
     font-weight: 600;
     margin-top: 25px;

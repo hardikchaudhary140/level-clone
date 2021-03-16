@@ -55,8 +55,8 @@
     font-size: 12px;
     font-weight: 600;
     color: white;
-    border: tomato;
-    background-color: rgb(247, 71, 40);
+    border: #dc3545;
+    background-color: #dc3545;
 }
 
 .port-btn:hover {
@@ -71,10 +71,10 @@
 }
 
 .about-place {
-    background-color: tomato;
+    background-color: #dc3545;
     color: white;
     width: 335px;
-    height: 80px;
+    height: 100px;
     margin: 0;
 }
 
@@ -99,8 +99,12 @@
     align-items: center;
     display: flex;
     margin: 0 auto;
+    background-color: rgb(247, 234, 234);
+    margin: 20px 15px;
+}
+
+.places:hover {
     background-color: gainsboro;
-    margin: 35px 15px;
 }
 
 .place-name {
