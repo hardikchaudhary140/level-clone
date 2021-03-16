@@ -1,67 +1,121 @@
 .check-in {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
-    background-image: url(./../../assets/images/check-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
     width: 100%;
     height: 100vh;
+    border: 1px solid red;
+    color: gray;
+    background-image: url(./../../assets/images/check-in-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.add-info {
-    background-color: white;
-    width: 75%;
-    height: 200px;
-    box-shadow: 5px blue;
-}
-
-.text {
-    margin: 20px 10px 0px 10px;
-    width: 300px;
+.map-text {
+    width: 257px;
     height: 40px;
+    margin: 14px 15px;
+    border: 1px solid rgb(155, 152, 152);
 }
 
-.select {
-    width: 225px;
+.map-text {
+    padding-left: 40px;
+}
+
+.map-text:hover {
+    border: 1px solid red;
+}
+
+.map {
+    position: relative;
+}
+
+.map i {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    padding: 9px;
+    color: red;
+}
+
+select {
+    width: 220px;
     height: 40px;
-    margin: 20px 10px 0px 10px;
+    margin: 10px 15px;
+    border: 1px solid rgb(155, 152, 152);
+}
+
+select:focus {
+    border: 1px solid red;
+}
+
+select {
+    padding-left: 40px;
+}
+
+.how-many {
+    position: relative;
+}
+
+.how-many i {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    padding: 9px;
+    color: red;
 }
 
 .check-btn {
-    width: 225px;
+    color: whitesmoke;
+    width: 220px;
     height: 40px;
-    margin: 20px 10px 0px 10px;
-    background-color: rgb(255, 77, 45);
-    border: rgb(253, 113, 89);
-    color: white;
-    text-align: center;
-    font-size: 12px;
+    margin: 10px 15px;
+    background-color: rgb(253, 32, 32);
+    border: 1px solid rgb(253, 32, 32);
+    font-size: 11px;
     font-weight: 600;
+    text-align: center;
 }
 
 .check-btn:hover {
-    background-color: rgb(250, 44, 8);
-    border: 1px solid tomato;
+    background-color: red;
+}
+
+form {
+    width: 75%;
+    height: 210px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid yellow;
+}
+
+.destination {
+    display: flex;
+}
+
+.availibility {
+    display: flex;
 }
 
 .help {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    // width: 90%;
-    margin: 20px 24px 0px 10px;
+    margin: 0px 15px;
 }
 
-.help-text {
-    color: gray;
+.check-text {
+    font-size: 14px;
 }
 
-.need-help {
-    color: tomato;
+.need-text {
+    color: rgb(250, 52, 52);
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.need-text:hover {
+    color: red;
     cursor: pointer;
 }
