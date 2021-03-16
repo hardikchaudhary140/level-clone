@@ -1,44 +1,74 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="check-in">
+    <form>
 
-    <div class="add-info">
+        <div class="destination">
 
-        <div class="place">
-            <input type="text" class="text" placeholder="Type your destination">
-            <input type="date" class="text" placeholder="Check in">
-            <input type="date" class="text" placeholder="Check out">
+            <div class="map">
+                <input type="text" class="map-text" placeholder="Type your destination">
+                <i class="fa fa-map-marker fa-2x"></i>
+            </div>
+
+            <div class="map">
+                <input type="text" class="map-text" placeholder="Check in">
+                <i class="fa fa-calendar fa-2x"></i>
+            </div>
+
+            <div class="map">
+                <input type="text" class="map-text" placeholder="Check out">
+                <i class="fa fa-calendar fa-2x"></i>
+            </div>
+
         </div>
 
         <div class="availibility">
-            <select name="adult" id="adult" class="select">
-                <option value="adult">adult</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            <select name="children" id="children" class="select">
-                <option value="children">children</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            <select name="room" id="room" class="select">
-                <option value="Room">Room</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            <button type="submit" class="check-btn">CHECK AVAILIBITY</button>
+
+            <div class="how-many">
+
+                <select>
+                    <option value="adult" class="option">adult</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <i class="fa fa-user fa-2x"></i>
+            </div>
+
+            <div class="how-many">
+                <select>
+                    <option value="children" class="option">Children</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <i class="fa fa-user fa-2x"></i>
+            </div>
+
+            <div class="how-many">
+                <select>
+                    <option value="adult" class="option">Room</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <i class="fa fa-bed fa-2x"></i>
+            </div>
+
+            <div>
+                <button type="submit" class="check-btn">CHECK AVAILABILITY</button>
+
+            </div>
+
+
         </div>
 
         <div class="help">
-            <div>
-                <p class="help-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            </div>
-            <div>
-                <p class="need-help">Need Help?</p>
-            </div>
+            <p class="check-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="need-text">Need Help?</p>
         </div>
 
-    </div>
-
+    </form>
 </div>
