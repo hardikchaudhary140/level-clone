@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(./../../assets/images/contact-bg.jpg);
+    background-image: url(./../../assets/images/map-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-info {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
 
 .form {
@@ -55,11 +59,11 @@
 }
 
 .contact-button {
-    background-color: rgb(250, 119, 96);
-    border: rgb(250, 119, 96);
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
     color: white;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 14px;
     text-align: center;
     width: 370px;
     height: 40px;
@@ -67,6 +71,6 @@
 }
 
 .contact-button:hover {
-    background-color: #dc3545;
+    background-color: rgb(219, 18, 18);
     border: 1px solid #dc3545;
 }

@@ -6,7 +6,7 @@
     height: 100vh;
     border: 1px solid #dc3545;
     color: gray;
-    background-image: url(./../../assets/images/check-in-img.jpg);
+    background-image: url(./../../assets/images/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 .map-text {
-    width: 257px;
+    width: 245px;
     height: 40px;
     margin: 14px 15px;
     border: 1px solid rgb(155, 152, 152);
@@ -24,12 +24,25 @@
     padding-left: 40px;
 }
 
+.checked-text {
+    padding: 0 45px;
+    width: 200px;
+    height: 40px;
+    margin: 14px 15px;
+    border: 1px solid rgb(155, 152, 152);
+}
+
 .map-text:hover {
     border: 1px solid #dc3545;
 }
 
 .map {
     position: relative;
+    margin: 15px 0 0 11px;
+}
+
+map:hover {
+    border: 1px solid #dc3545 !important;
 }
 
 .map i {
@@ -41,22 +54,24 @@
 }
 
 select {
-    width: 220px;
+    width: 208px;
     height: 40px;
     margin: 10px 15px;
+    color: gray;
     border: 1px solid rgb(155, 152, 152);
 }
 
-select:focus {
+select:hover {
     border: 1px solid #dc3545;
 }
 
 select {
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .how-many {
     position: relative;
+    margin-left: 11px;
 }
 
 .how-many i {
@@ -106,6 +121,7 @@ form {
 
 .check-text {
     font-size: 14px;
+    margin-left: 10px;
 }
 
 .need-text {
@@ -117,4 +133,8 @@ form {
 .need-text:hover {
     color: red;
     cursor: pointer;
+}
+
+.room {
+    padding: 0 45px;
 }

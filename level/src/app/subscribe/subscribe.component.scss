@@ -6,12 +6,19 @@
     width: 100%;
     height: 250px;
     color: white;
-    background-color: #dc3545;
+    background-color: rgb(238, 80, 87);
+    ;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.tm-section-down-arrow {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
 }
 
 .sub-title {
